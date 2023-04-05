@@ -1,7 +1,8 @@
 import Slogans from "../sloganList/SloganList";
 import { SloganData } from "../../../assets/data/SloganData";
 import { Divider } from "../../common/divider/Divider";
-import './sloganForm.css'
+import { Pagination } from "../../common/pagination/Pagination";
+import "./sloganForm.css";
 
 const SloganForm = () => {
   return (
@@ -28,6 +29,7 @@ const SloganForm = () => {
         <Divider />
         <Slogans slogans={SloganData} />
         <Divider />
+        <Pagination />
       </div>
     </div>
   );
