@@ -1,4 +1,4 @@
-.card {
+.feature-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +8,6 @@
   opacity: 1;
 }
 
-.card p {
+.feature-card p {
   color: #4d4d4d;
 }
