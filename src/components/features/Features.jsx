@@ -1,13 +1,14 @@
 import React from "react";
-import { Card } from "../common/card/Card";
+import { FeatureCard } from "../common/cards/feature/FeatureCard";
 import { FeaturesData } from "../../assets/data/FeaturesData";
+import "./features.css";
 
 const Features = () => {
   return (
     <div className="feat-container container">
       {FeaturesData.length &&
         FeaturesData.map((feature) => (
-          <Card key={feature.id} feature={feature} />
+          <FeatureCard key={feature.id} feature={feature} />
         ))}
     </div>
   );

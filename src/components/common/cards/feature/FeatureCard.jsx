@@ -1,4 +1,6 @@
-const Card = ({ feature }) => {
+import "./featureCard.css";
+
+const FeatureCard = ({ feature }) => {
   const { name, icon, description } = feature;
   return (
     <div className="card">
@@ -9,4 +11,4 @@ const Card = ({ feature }) => {
   );
 };
 
-export { Card };
+export { FeatureCard };
