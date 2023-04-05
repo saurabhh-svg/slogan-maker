@@ -6,13 +6,10 @@ const Header = () => {
   return (
     <div className="header">
       <nav className="nav-container container">
-        <div className="nav-align">
-          <span className="logo-main">
-            <img src={logo} alt="dukaan-logo" className="logo-img" />
-          </span>
-          <span className="logo-main">
-            <p>Dukaan</p>
-          </span>
+        <div className="nav-align logo-main">
+          <img src={logo} alt="dukaan-logo" className="logo-img" />
+          <p>dukaan</p>
+          <p>&reg;</p>
         </div>
         <div className="nav-align gap-1">
           <p>Signin</p>

@@ -1,0 +1,43 @@
+footer {
+  background: #1a181e;
+  color: #ffffff;
+}
+.footer-main {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 64px;
+  justify-content: space-between;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+}
+
+footer p {
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.badge-count {
+  background: #ffffff;
+  color: #1a181e;
+  border-radius: 50%;
+  height: 14px;
+  width: 9px;
+  padding: 1px 6px;
+  text-align: center;
+  margin-left: 2px;
+  font-size: 14px;
+}
+
+.end-item {
+  font-size: 14px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
