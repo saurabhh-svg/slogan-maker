@@ -1,2 +1,3 @@
-# slogan-maker
-A slogan maker Front End Application 
+In the project directory, you can run:
+
+### `npm start`
