@@ -12,7 +12,7 @@ const Header = () => {
           <p>&reg;</p>
         </div>
         <div className="nav-align gap-1">
-          <p>Signin</p>
+          <p>Sign In</p>
           <Button text={"Dukaan for PC"} />
         </div>
       </nav>

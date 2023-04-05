@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 352px;
+  opacity: 1;
+}
+
+.card p {
+  color: #4d4d4d;
+}

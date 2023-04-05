@@ -31,3 +31,8 @@ body {
   box-sizing: border-box;
   background: #fafafa;
 }
+
+.container {
+  max-width: 1120px;
+  margin: auto;
+}

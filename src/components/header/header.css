@@ -4,11 +4,6 @@
   background: #146eb4;
 }
 
-.container {
-  max-width: 1120px;
-  margin: auto;
-}
-
 .nav-container {
   display: flex;
   color: white;

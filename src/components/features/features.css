@@ -1,0 +1,11 @@
+.feat-container {
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 76px 64px;
+}
+
+.feature-block {
+  margin-top: 80px;
+  background-color: rgb(20, 110, 180, 0.05);
+}
