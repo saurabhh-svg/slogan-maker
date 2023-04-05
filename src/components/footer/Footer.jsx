@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.css";
 import logo from "../../assets/images/logo.svg";
 import { Divider } from "../common/divider/Divider";

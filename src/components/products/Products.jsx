@@ -1,4 +1,3 @@
-import React from "react";
 import "./products.css";
 import { ProductData } from "../../assets/data/ProductData";
 import { ProductCard } from "../common/cards/product/ProductCard";

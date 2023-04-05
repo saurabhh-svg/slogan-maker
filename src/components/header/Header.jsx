@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../assets/images/logo.svg";
 import "./header.css";
 import Button from "../common/button/Button";

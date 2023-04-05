@@ -1,0 +1,26 @@
+.slogans-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slogan-items {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slogan-item {
+  width: 43%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background: #f2f2f2;
+  color: #1a181e;
+  border-radius: 4px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

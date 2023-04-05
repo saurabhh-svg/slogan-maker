@@ -1,4 +1,3 @@
-import React from "react";
 import { FeatureCard } from "../common/cards/feature/FeatureCard";
 import { FeaturesData } from "../../assets/data/FeaturesData";
 import "./features.css";

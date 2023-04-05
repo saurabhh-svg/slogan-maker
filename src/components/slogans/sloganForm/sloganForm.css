@@ -1,0 +1,49 @@
+.form-container {
+  background-color: #ffffff;
+  margin-top: -134px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+}
+
+.form-main {
+  padding: 64px 192px;
+}
+
+.form-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-heading {
+  font-family: "GalanoMed";
+  font-size: 36px;
+  color: #1a181e;
+}
+
+.form-para {
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+.form-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #4d4d4d;
+}
+
+.form-input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  width: 352px;
+  height: 48px;
+  padding: 0 0.5rem;
+  font-size: 16px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.relative {
+  position: relative;
+}
