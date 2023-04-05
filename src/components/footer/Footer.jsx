@@ -8,8 +8,11 @@ const Footer = () => {
     <footer className="mt-80">
       <div className="container">
         <main className="footer-main">
-          <img src={logo} alt="dukaan-logo" className="logo-img" />
-
+          <div className="logo-main">
+            <img src={logo} alt="dukaan-logo" className="logo-img" />
+            <p>dukaan</p>
+            <p>&reg;</p>
+          </div>
           <div className="footer-section">
             <p>Contact</p>
             <p>FAQ's</p>
