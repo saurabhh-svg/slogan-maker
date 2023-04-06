@@ -4,7 +4,7 @@ import { useState } from "react";
 import "./sloganList.css";
 
 const SloganList = ({ slogans, search = "" }) => {
-  const [limit, setLimit] = useState(18);
+  const [limit] = useState(18);
   const [currentPage, setCurrentPage] = useState(1);
 
   const handlePrevPageClick = () => {
