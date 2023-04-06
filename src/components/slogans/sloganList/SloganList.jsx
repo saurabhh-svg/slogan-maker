@@ -29,7 +29,7 @@ const SloganList = ({ slogans, search = "" }) => {
       <div className="slogans-header">
         <p className="form-para">
           We've generated {slogans.length} slogans{" "}
-          {search.length ? `for ${search}` : ""}
+          {search.length ? `for "${search}"` : ""}
         </p>
         <button className="btn-secondary">Download all</button>
       </div>
