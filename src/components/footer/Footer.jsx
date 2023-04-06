@@ -9,9 +9,8 @@ const Footer = () => {
       <div className="container">
         <main className="footer-main">
           <div className="logo-main">
-            <img src={logo} alt="dukaan-logo" className="logo-img" />
-            <p>dukaan</p>
-            <p>&reg;</p>
+            <img src={logo} alt="dukaan-logo" />
+            <p className="logo-text">dukaan &reg;</p>
           </div>
           <div className="footer-section">
             <p>Contact</p>

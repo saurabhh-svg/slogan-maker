@@ -48,3 +48,8 @@ footer p {
   justify-content: center;
   gap: 0.5rem;
 }
+
+.logo-text {
+  font-size: 28px !important;
+  font-weight: 700 !important;
+}

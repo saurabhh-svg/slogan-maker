@@ -12,7 +12,6 @@ const Header = () => {
         </div>
         <div className="nav-align gap-1">
           <p>Sign In</p>
-          <div className="placeholder"></div>
           <button className="btn-fixed">Dukaan for PC</button>
         </div>
       </nav>
