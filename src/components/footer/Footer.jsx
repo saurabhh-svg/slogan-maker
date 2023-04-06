@@ -1,7 +1,7 @@
 import "./footer.css";
 import logo from "../../assets/images/logo.svg";
 import { Divider } from "../common/divider/Divider";
-import flag from "../../assets/images/flag.svg";
+import flag from "../../assets/images/flag.png";
 
 const Footer = () => {
   return (

@@ -25,3 +25,9 @@
 .gap-1 {
   gap: 1rem;
 }
+
+.btn-fixed {
+  position: fixed;
+  top: 32px;
+  right: 32px;
+}

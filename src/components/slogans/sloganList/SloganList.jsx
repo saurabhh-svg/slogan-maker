@@ -1,10 +1,13 @@
 import ReactTooltip from "react-tooltip";
 import "./sloganList.css";
-const SloganList = ({ slogans }) => {
+const SloganList = ({ slogans, search = "" }) => {
   return (
     <div>
       <div className="slogans-header">
-        <p className="form-para">We've generated 1,023 slogans for "cozy"</p>
+        <p className="form-para">
+          We've generated {slogans.length} slogans{" "}
+          {search.length ? `for ${search}` : ""}
+        </p>
         <button className="btn-secondary">Download all</button>
       </div>
       <div className="slogan-items">

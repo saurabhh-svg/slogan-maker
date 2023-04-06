@@ -12,7 +12,9 @@ const Header = () => {
         </div>
         <div className="nav-align gap-1">
           <p>Sign In</p>
-          <Button text={"Dukaan for PC"} />
+          <div className="btn-fixed">
+            <Button text={"Dukaan for PC"} />
+          </div>
         </div>
       </nav>
     </div>
