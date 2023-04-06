@@ -5,6 +5,7 @@
 }
 
 .nav-container {
+  width: 80%;
   display: flex;
   color: white;
   justify-content: space-between;
@@ -28,6 +29,18 @@
 
 .btn-fixed {
   position: fixed;
-  top: 32px;
-  right: 32px;
+  right: 15%;
+  padding: 12px 24px;
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #146eb4;
+  cursor: pointer;
+}
+
+.placeholder {
+  top: 0;
+  width: 150px;
+  height: 40px;
 }

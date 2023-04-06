@@ -1,6 +1,6 @@
 import logo from "../../assets/images/logo.svg";
 import "./header.css";
-import Button from "../common/button/Button";
+import { Button } from "../common/button/Button";
 const Header = () => {
   return (
     <div className="header">
@@ -12,9 +12,8 @@ const Header = () => {
         </div>
         <div className="nav-align gap-1">
           <p>Sign In</p>
-          <div className="btn-fixed">
-            <Button text={"Dukaan for PC"} />
-          </div>
+          <div className="placeholder"></div>
+          <button className="btn-fixed">Dukaan for PC</button>
         </div>
       </nav>
     </div>

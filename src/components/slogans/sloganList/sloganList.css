@@ -24,3 +24,59 @@
   align-items: center;
   cursor: pointer;
 }
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  gap: 0.7rem;
+}
+
+.pagination-main {
+  display: flex;
+  margin-top: -48px;
+  justify-content: space-between;
+}
+
+.pagination-pages {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination-main p {
+  color: #146eb4;
+  cursor: pointer;
+}
+
+.pagination-pages .active {
+  background: #146eb4;
+  color: #ffffff;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  text-align: center;
+}
+
+.pagination-btn {
+  background-color: #ffffff;
+  color: #146eb4;
+  border: none;
+  height: 22px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.active {
+  background: #146eb4;
+  color: #ffffff;
+  border-radius: 50%;
+  border: 0px;
+  height: 22px;
+  width: 22px;
+  text-align: center;
+}
+
+.pagination-numbers {
+  gap: 15px;
+}

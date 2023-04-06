@@ -2,7 +2,6 @@ import { useState } from "react";
 import Slogans from "../sloganList/SloganList";
 import { SloganData } from "../../../assets/data/SloganData";
 import { Divider } from "../../common/divider/Divider";
-import { Pagination } from "../../common/pagination/Pagination";
 import "./sloganForm.css";
 
 const SloganForm = () => {
@@ -11,16 +10,18 @@ const SloganForm = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    console.log(searchString);
     setFilteredSlogans(
       SloganData.filter((slogan) =>
-        slogan.slogan.toLowerCase().includes(searchString.toLowerCase())
+        slogan.slogan
+          .toLowerCase()
+          .includes(
+            searchString !== undefined ? searchString.toLowerCase() : ""
+          )
       )
     );
   };
 
   const setSearch = (e) => {
-    console.log(e.target.value);
     setSearchString(e.target.value);
   };
 
@@ -49,8 +50,6 @@ const SloganForm = () => {
         </form>
         <Divider />
         <Slogans slogans={filteredSlogans} search={searchString} />
-        <Divider />
-        <Pagination />
       </div>
     </div>
   );
