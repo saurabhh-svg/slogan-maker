@@ -12,7 +12,7 @@ Common Components used for common stylings and features.
 
 
 
-                                                          - Preview - 
+                                                      - Preview - 
                                                           
                                                           
 <img width="1440" alt="Screenshot 2023-04-07 at 4 17 59 AM" src="https://user-images.githubusercontent.com/82569167/230507621-728d58a4-2838-4abc-805e-e51d7b1ddfd9.png">
