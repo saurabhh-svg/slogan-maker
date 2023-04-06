@@ -57,7 +57,7 @@ const SloganList = ({ slogans, search = "" }) => {
           onClick={handlePrevPageClick}
           disabled={currentPage === 1}
         >
-          {currentPage !== 1 ? "< Prev" : ""}
+          {slogans.length && currentPage !== 1 ? "< Prev" : ""}
         </button>
 
         <div className="pagination-numbers">
@@ -82,7 +82,9 @@ const SloganList = ({ slogans, search = "" }) => {
           onClick={handleNextPageClick}
           disabled={currentPage === Math.ceil(slogans.length / limit)}
         >
-          {currentPage !== Math.ceil(slogans.length / limit) ? "Next >" : ""}
+          {slogans.length && currentPage !== Math.ceil(slogans.length / limit)
+            ? "Next >"
+            : ""}
         </button>
       </div>
     </div>
