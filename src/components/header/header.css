@@ -16,6 +16,11 @@
   font-size: 18px;
 }
 
+.logo-text {
+  font-size: 26px !important;
+  font-weight: 600 !important;
+}
+
 .nav-align {
   display: flex;
   align-items: center;
@@ -29,7 +34,7 @@
 
 .btn-fixed {
   position: fixed;
-  right: 15%;
+  right: 12%;
   padding: 12px 24px;
   background: #ffffff;
   border: none;

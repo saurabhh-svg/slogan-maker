@@ -8,8 +8,7 @@ const Header = () => {
       <nav className="nav-container container">
         <div className="nav-align logo-main">
           <img src={logo} alt="dukaan-logo" className="logo-img" />
-          <p>dukaan</p>
-          <p>&reg;</p>
+          <p className="logo-text">dukaan &reg;</p>
         </div>
         <div className="nav-align gap-1">
           <p>Sign In</p>
