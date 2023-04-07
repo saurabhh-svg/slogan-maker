@@ -1,4 +1,8 @@
-A static Fully Functional React App generating slogans on basis of search keyword from data provided.
+# SLOGAN MAKER
+
+A static Fully Functional React App generating slogans for free on basis of search keyword entered by the user.
+
+## What it has ?
 
 Consists of a dynamic search component to search through the database.
 
@@ -10,10 +14,20 @@ Clean and self explanatory Folder Structure which is scalable.
 
 Common Components used for common stylings and features.
 
+## Authors
 
+- [@saurabhh-svg](https://www.github.com/saurabhh-svg)
 
-                                                      - Preview - 
-                                                          
-                                                          
-<img width="1440" alt="Screenshot 2023-04-07 at 4 17 59 AM" src="https://user-images.githubusercontent.com/82569167/230507621-728d58a4-2838-4abc-805e-e51d7b1ddfd9.png">
-<img width="1440" alt="Screenshot 2023-04-07 at 4 19 59 AM" src="https://user-images.githubusercontent.com/82569167/230507822-06702b01-65e9-4e68-9029-1b80152dae05.png">
+## Socials
+
+- [@SaurabhSingh](https://www.linkedin.com/in/saurabh-singh-82287a201/)
+
+## Demo
+
+https://slogan-maker-rouge.vercel.app/
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Screenshots
